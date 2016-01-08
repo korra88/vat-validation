@@ -5,7 +5,7 @@ class vatValidation {
     const WSDL = "http://ec.europa.eu/taxation_customs/vies/checkVatService.wsdl";
 
     private $_valid_country_code = array(
-        'AT', 'BE', 'BG,', 'CY', 'CZ', 'DE', 'DK', 'EE', 'EL', 'ES', 'FI', 'FR', 'GB', 'HR', 'HU', 'IE', 'IT',
+        'AT', 'BE', 'BG', 'CY', 'CZ', 'DE', 'DK', 'EE', 'EL', 'ES', 'FI', 'FR', 'GB', 'HR', 'HU', 'IE', 'IT',
         'LT', 'LU', 'LV', 'MT', 'NL', 'PL', 'PT', 'RO', 'SE', 'SI', 'SK'
     );
     private $_client = null;
